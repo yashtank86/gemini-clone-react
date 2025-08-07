@@ -54,7 +54,7 @@
 require("dotenv").config(); // Install dotenv: npm install dotenv
 const { GoogleGenerativeAI } = require("@google/generative-ai"); // Use require for CommonJS modules
 
-const API_KEY = "AIzaSyCpArcTrll3NJ_IiDAmvTjSGF6-1mzBaBc";
+const API_KEY = "";
 
 if (!API_KEY) {
   console.error("GEMINI_API_KEY is not set in your environment variables.");
